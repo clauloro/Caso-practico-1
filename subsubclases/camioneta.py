@@ -7,3 +7,4 @@ class Camioneta(Coche):
 
     def __str__(self):
         return super().__str__() + ", Carga: {} kg".format(self.carga)
+

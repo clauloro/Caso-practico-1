@@ -8,3 +8,4 @@ class Motocicleta(Bicicleta):
 
     def __str__(self):
         return super().__str__() + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)
+
